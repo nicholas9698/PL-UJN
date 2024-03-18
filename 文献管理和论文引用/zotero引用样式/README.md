@@ -1,6 +1,6 @@
 # Chinese-gb7714-2005-numeric-UJN #
 
-![GitHub License](https://img.shields.io/github/license/nicholas9698/PL-UJN) ![Static Badge](https://img.shields.io/badge/redleafnew-Chinese--STD--GB--T--7714--related--csl-blue?link=https%3A%2F%2Fgithub.com%2Fredleafnew%2FChinese-STD-GB-T-7714-related-csl)
+![GitHub License](https://img.shields.io/github/license/nicholas9698/PL-UJN) ![Static Badge](https://img.shields.io/badge/redleafnew-Chinese--STD--GB--T--7714--related--csl-blue?logo=github&link=https%3A%2F%2Fgithub.com%2Fredleafnew%2FChinese-STD-GB-T-7714-related-csl)
 
 本CSL样式是基于 [Chinese-STD-GB-T-7714-related-csl](https://github.com/redleafnew/Chinese-STD-GB-T-7714-related-csl) 中 [017gb-t-7714-2005-numeric-bilingual.csl](https://github.com/redleafnew/Chinese-STD-GB-T-7714-related-csl/blob/main/017gb-t-7714-2005-numeric-bilingual.csl) 修改得到。
 
