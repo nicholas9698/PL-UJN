@@ -8,6 +8,10 @@
 
 <img src="../../src/images/citation-format.jpg" style="width: 1000px" alt="citation format" />
 
+> 英文会议使用 （ [C]. In: 论文集名. ）
+>
+> 中文会议使用 （ [C]. 论文集名. ）
+
 ## 使用方法 ##
 
 `Zotero-->编辑-->首选项-->引用-->样式`

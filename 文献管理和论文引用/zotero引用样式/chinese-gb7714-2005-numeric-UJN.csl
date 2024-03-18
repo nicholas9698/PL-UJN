@@ -125,6 +125,27 @@
       </choose>
     </group>
   </macro>
+  <macro name="container-title-cn">
+    <group delimiter=", ">
+      <group delimiter=": ">
+        <choose>
+          <if variable="container-title">
+            <text variable="container-title"/>
+          </if>
+          <else>
+            <text variable="event"/>
+          </else>
+        </choose>
+        <text macro="book-volume"/>
+      </group>
+      <choose>
+        <if variable="event-date">
+          <date variable="event-date" form="text"/>
+          <text variable="event-place"/>
+        </if>
+      </choose>
+    </group>
+  </macro>
   <macro name="edition">
     <choose>
       <if is-numeric="edition">
@@ -199,6 +220,29 @@
         <group>
           <group delimiter=", ">
             <text macro="container-title" text-case="title"/>
+            <choose>
+              <if type="article-newspaper">
+                <text macro="issued-date"/>
+              </if>
+              <else>
+                <text macro="issued-year"/>
+              </else>
+            </choose>
+            <text variable="volume"/>
+          </group>
+          <text variable="issue" prefix="(" suffix=")"/>
+        </group>
+        <text variable="page"/>
+      </group>
+      <text macro="accessed-date"/>
+    </group>
+  </macro>
+  <macro name="periodical-publishing-cn">
+    <group>
+      <group delimiter=": ">
+        <group>
+          <group delimiter=", ">
+            <text macro="container-title-cn" text-case="title"/>
             <choose>
               <if type="article-newspaper">
                 <text macro="issued-date"/>
@@ -369,6 +413,14 @@
       <text macro="url-doi"/>
     </group>
   </macro>
+  <macro name="article-in-periodical-layout-cn">
+    <group delimiter=". " suffix=".">
+      <text macro="author"/>
+      <text macro="title"/>
+      <text macro="periodical-publishing-cn"/>
+      <text macro="url-doi"/>
+    </group>
+  </macro>
   <macro name="patent-layout">
     <group delimiter=". " suffix=".">
       <text macro="author"/>
@@ -404,6 +456,25 @@
       </else>
     </choose>
   </macro>
+  <macro name="entry-layout-cn">
+    <choose>
+      <if type="article-journal article-magazine article-newspaper" match="any">
+        <text macro="article-in-periodical-layout"/>
+      </if>
+      <else-if type="periodical">
+        <text macro="serial-layout"/>
+      </else-if>
+      <else-if type="patent">
+        <text macro="patent-layout"/>
+      </else-if>
+      <else-if type="paper-conference" variable="container-title" match="any">
+        <text macro="article-in-periodical-layout-cn"/>
+      </else-if>
+      <else>
+        <text macro="monograph-layout"/>
+      </else>
+    </choose>
+  </macro>
   <citation collapse="citation-number" after-collapse-delimiter=",">
     <layout vertical-align="sup" delimiter="," prefix="[" suffix="]">
       <text macro="citation-layout"/>
@@ -416,7 +487,7 @@
     </layout>
     <layout>
       <text variable="citation-number" prefix="[" suffix="]"/>
-      <text macro="entry-layout"/>
+      <text macro="entry-layout-cn"/>
     </layout>
   </bibliography>
 </style>
