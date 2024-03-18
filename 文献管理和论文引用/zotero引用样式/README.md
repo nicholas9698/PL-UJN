@@ -16,13 +16,13 @@ Zotero-->编辑-->首选项-->引用-->样式
 
 对于英文文献添加至 Zotero 后，需要检查文献信息中是否包含 “语言” 信息，若缺失可以手动添加 “en”，否则会出现英文文献作者中出现 “等” 而不是 “et.al”。
 
-1. 未添加语言信息的英文文献
+## 1. 未添加语言信息的英文文献 ##
    
    ![no language1](../../src/images/info_no_language1.jpg)
    
    ![no language2](../../src/images/info_no_language2.jpg)
 
-3. 添加语言信息后
+## 2. 添加语言信息后 ##
     
    ![add_language1](../../src/images/info_add_language1.jpg)
    
