@@ -2,7 +2,7 @@
  * @Author: nicholas9698 nicholas9698@outlook.com
  * @Date: 2024-03-18 14:14:17
  * @LastEditors: nicholas9698 nicholas9698@outlook.com
- * @LastEditTime: 2024-03-18 17:11:30
+ * @LastEditTime: 2024-03-18 17:27:58
  * @FilePath: \PL-UJN\文献管理和论文引用\README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -55,7 +55,7 @@
 
 在添加完所有引用后，可以通过 word 宏 的方式为所有标号创建交叉引用（添加/修改 文档中的引用后会失效，需要重新操作）。
 
-对于设置 word 宏 的相关内容，请参照该 [说明文件]()
+对于设置 word 宏 的相关内容，请参照该 [说明文件](https://github.com/nicholas9698/PL-UJN/tree/main/%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86%E5%92%8C%E8%AE%BA%E6%96%87%E5%BC%95%E7%94%A8/word%E5%AE%8F)
 
 设置 word 宏 后，通过 `工具栏-->视图-->宏-->查看宏-->ZoteroLinkCitation-->运行` 以设置文档内容的交叉引用。
 
