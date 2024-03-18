@@ -2,7 +2,7 @@
  * @Author: nicholas9698 nicholas9698@outlook.com
  * @Date: 2024-03-18 14:14:17
  * @LastEditors: nicholas9698 nicholas9698@outlook.com
- * @LastEditTime: 2024-03-18 16:48:43
+ * @LastEditTime: 2024-03-18 17:11:30
  * @FilePath: \PL-UJN\文献管理和论文引用\README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -39,13 +39,19 @@
 
 对于安装 UJN 参考文献的引用格式，请参照该 [说明文件](https://github.com/nicholas9698/PL-UJN/tree/main/%E6%96%87%E7%8C%AE%E7%AE%A1%E7%90%86%E5%92%8C%E8%AE%BA%E6%96%87%E5%BC%95%E7%94%A8/zotero%E5%BC%95%E7%94%A8%E6%A0%B7%E5%BC%8F) 。
 
-### 添加文献引用和构建文献列表
+### 1. 添加文献引用和构建文献列表
 
 在 word 文档，输入相关内容，通过 `工具栏-->Zotero-->Add/Edit Citation` 为内容添加参考文献。通过 `工具栏-->Zotero-->Add/Edit Bibliography` 创建参考文献列表。
 
 <img style="width: 1000px;" src="../src/images/zotero_add_paperlist.gif" alt="Zotero add paperlist" />
 
-### 标号交叉引用 ###
+> ***个人感觉经典视图比搜索模式更高效，推荐启用经典视图***
+
+> `Zotero-->编辑-->引用-->文档编辑软件-->使用经典版“添加引注”对话框`
+
+> <img style="width: 500px" src="../src/images/classical.jpg" alt="classical" />
+
+### 2. 标号交叉引用 ###
 
 在添加完所有引用后，可以通过 word 宏 的方式为所有标号创建交叉引用（添加/修改 文档中的引用后会失效，需要重新操作）。
 
