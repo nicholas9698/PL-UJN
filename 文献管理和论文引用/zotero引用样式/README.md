@@ -10,7 +10,7 @@
 
 ## 使用方法 ##
 
-Zotero-->编辑-->首选项-->引用-->样式
+`Zotero-->编辑-->首选项-->引用-->样式`
 
 <img src="../../src/images/import_csl.gif" style="width: 1000px;" alt="Import CSL" />
 
