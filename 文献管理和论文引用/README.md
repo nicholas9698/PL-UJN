@@ -46,9 +46,9 @@
 <img style="width: 1000px;" src="../src/images/zotero_add_paperlist.gif" alt="Zotero add paperlist" />
 
 > ***个人感觉经典视图比搜索模式更高效，推荐启用经典视图***
-
+>
 > `Zotero-->编辑-->引用-->文档编辑软件-->使用经典版“添加引注”对话框`
-
+>
 > <img style="width: 500px" src="../src/images/classical.jpg" alt="classical" />
 
 ### 2. 标号交叉引用 ###
