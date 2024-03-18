@@ -18,7 +18,7 @@ Zotero-->编辑-->首选项-->引用-->样式
 
 ## 1. 未添加语言信息的英文文献 ##
    
-   ![no language1](../../src/images/info_no_language1.jpg)
+   ![no language1](../../src/images/info_no_language1.jpg =800x)
    
    ![no language2](../../src/images/info_no_language2.jpg)
 
