@@ -1,5 +1,7 @@
 # Zotero实现Word交叉引用
 
+![GitHub License](https://img.shields.io/github/license/nicholas9698/PL-UJN)
+
 Zotero 官方并未提供 Word 交叉引用的功能，现有的实现方法主要来自第三方作者。
 
 本项目中使用的是 Zotero 论坛中 [antikorpo](https://forums.zotero.org/discussion/comment/148343/#Comment_148343) 提供的方法，通过设置 Word 宏 实现交叉引用。
