@@ -2,7 +2,7 @@
  * @Author: nicholas9698 nicholas9698@outlook.com
  * @Date: 2024-03-18 14:14:17
  * @LastEditors: nicholas9698 nicholas9698@outlook.com
- * @LastEditTime: 2024-03-18 16:35:31
+ * @LastEditTime: 2024-03-18 16:48:43
  * @FilePath: \PL-UJN\文献管理和论文引用\README.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -59,7 +59,7 @@
 
 ***1.划词翻译***
 
-推荐使用 ![Static Badge](https://img.shields.io/badge/windingwind-zotero--pdf--translate-blue?logo=github&link=https%3A%2F%2Fgithub.com%2Fwindingwind%2Fzotero-pdf-translate) 其主要功能包括：
+推荐使用 ![Static Badge](https://img.shields.io/badge/windingwind-zotero--pdf--translate-blue?logo=github&link=https%3A%2F%2Fgithub.com%2Fwindingwind%2Fzotero-pdf-translate) ，其主要功能包括：
 
 1. 划词翻译
 2. 翻译引擎与字典引擎
