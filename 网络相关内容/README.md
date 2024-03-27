@@ -27,7 +27,7 @@
 
 ## 2. 宿舍网络环境
 
-接入运营商的宿舍，通常需要使用相应软件来拨号上网，并且通常限制两台设备。日常使用PC、笔记本、手机、Pad经常不够用，并且XBOX、PS、Switch等无法验证上网。由于平常主要使用 🇨🇳🎀，因此在 OpenWrt 上实现了一下自动上网认证，进而实现多设备的联网支持。
+接入运营商的宿舍，通常需要使用相应软件来拨号上网，并且限制两台设备。日常使用PC、笔记本、手机、Pad经常不够用，并且XBOX、PS、Switch等无法验证上网。由于平常主要使用 🇨🇳🎀，因此在 OpenWrt 上实现了一下自动上网认证，进而实现多设备的联网支持。
 
 联网插件已经集成在了第一节的镜像中，单独下载安装插件请见该项目 ![Static Badge](https://img.shields.io/badge/nicholas9698-luci--app--campusnet-blue?logo=Github&link=https%3A%2F%2Fgithub.com%2Fnicholas9698%2Fluci-app-campusnet)
 
