@@ -312,7 +312,7 @@
               <text value="A"/>
             </if>
             <else>
-              <text value="M"/>
+              <text value="DB"/>
             </else>
           </choose>
         </if>
