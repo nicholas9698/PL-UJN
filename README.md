@@ -9,3 +9,7 @@
 ## 实验室网络环境及宿舍校园网环境
 
 详细说明见该链接 ------> [网络相关内容](https://github.com/nicholas9698/PL-UJN/tree/main/%E7%BD%91%E7%BB%9C%E7%9B%B8%E5%85%B3%E5%86%85%E5%AE%B9)
+
+## Linux软件
+
+- 微信Linux原生版 ------> [WeChat](https://github.com/nicholas9698/PL-UJN/tree/main/Linux/wechat-beta)
