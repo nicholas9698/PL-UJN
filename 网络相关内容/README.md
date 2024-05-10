@@ -6,7 +6,7 @@
 
 这里推荐使用低功耗的x86架构PC，安装 OpenWrt 等路由器系统，并选用相关插件来提升访问效率。下面放一个自用的 OpenWrt 版本（因为我需求变化不多，可能不怎么更新）：
 
-> 百度网盘链接：[openwrt-x86-64-20240327-efi.img](https://pan.baidu.com/s/18crIklZBqruszpdYZwPDow?pwd=v5an ) 提取码: v5an
+> 百度网盘链接：[openwrt-x86-64-20240327-efi.img](https://pan.baidu.com/s/18crIklZBqruszpdYZwPDow?pwd=v5an )， 提取码: v5an
 
 ### 主要包含功能插件
 
